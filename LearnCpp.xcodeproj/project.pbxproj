@@ -13,7 +13,6 @@
 		9A6B1BDE2A67E53C00F48928 /* Wave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1BDD2A67E53C00F48928 /* Wave.cpp */; };
 		9A6B1BEB2A695AF800F48928 /* SumArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1BEA2A695AF800F48928 /* SumArray.cpp */; };
 		9A6B1BED2A69626400F48928 /* algo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1BA92A6417D600F48928 /* algo.cpp */; };
-		9A6B1C0F2A6D87DD00F48928 /* RatInTheMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C0E2A6D87DD00F48928 /* RatInTheMaze.cpp */; };
 		9A6B1C202A6EB67B00F48928 /* CircularLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C1F2A6EB67B00F48928 /* CircularLinkedList.cpp */; };
 		9A6B1C372A70648200F48928 /* SortStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C362A70648200F48928 /* SortStack.cpp */; };
 		9A6B1C502A72B93400F48928 /* kqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C4F2A72B93400F48928 /* kqueue.cpp */; };
@@ -28,6 +27,23 @@
 		9A6B1C792A753F4000F48928 /* Implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C772A753D0700F48928 /* Implementation.cpp */; };
 		9A6B1C882A76D51D00F48928 /* isHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C872A76D51D00F48928 /* isHeap.cpp */; };
 		9A6B1C942A79681500F48928 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C932A79681500F48928 /* main.cpp */; };
+		9A6B1C992A80178F00F48928 /* RatInMaze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1C982A80178F00F48928 /* RatInMaze.cpp */; };
+		9A6B1CA62A80F9D700F48928 /* Implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CA52A80F9D700F48928 /* Implementation.cpp */; };
+		9A6B1CA82A810AAD00F48928 /* BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CA72A810AAD00F48928 /* BFS.cpp */; };
+		9A6B1CAA2A81125300F48928 /* DFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CA92A81125300F48928 /* DFS.cpp */; };
+		9A6B1CAC2A815BDA00F48928 /* cycleUndirectedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CAB2A815BDA00F48928 /* cycleUndirectedGraph.cpp */; };
+		9A6B1CAE2A82B18B00F48928 /* cycleDirectedGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CAD2A82B18B00F48928 /* cycleDirectedGraph.cpp */; };
+		9A6B1CB02A82C08100F48928 /* TopologicalOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CAF2A82C08100F48928 /* TopologicalOrder.cpp */; };
+		9A6B1CB22A83524A00F48928 /* Kahn's Algo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CB12A83524A00F48928 /* Kahn's Algo.cpp */; };
+		9A6B1CB42A83541600F48928 /* cycleDetectionKahns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CB32A83541600F48928 /* cycleDetectionKahns.cpp */; };
+		9A6B1CB62A838ECB00F48928 /* ShortestPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CB52A838ECB00F48928 /* ShortestPath.cpp */; };
+		9A6B1CB82A86207300F48928 /* ShortestDistanceInDAG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CB72A86207300F48928 /* ShortestDistanceInDAG.cpp */; };
+		9A6B1CBA2A862E2B00F48928 /* Dijkstra's Algo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CB92A862E2B00F48928 /* Dijkstra's Algo.cpp */; };
+		9A6B1CBC2A866B4000F48928 /* Prim's Algo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CBB2A866B4000F48928 /* Prim's Algo.cpp */; };
+		9A6B1CBE2A86AD3200F48928 /* Kruskal's.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CBD2A86AD3200F48928 /* Kruskal's.cpp */; };
+		9A6B1CC02A87506B00F48928 /* Kosaraju'sStronglyConnected.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CBF2A87506B00F48928 /* Kosaraju'sStronglyConnected.cpp */; };
+		9A6B1CC22A87896000F48928 /* Bellman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CC12A87896000F48928 /* Bellman.cpp */; };
+		9A6B1CC42A9099F900F48928 /* mincostrod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B1CC32A9099F800F48928 /* mincostrod.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -157,6 +173,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9A6B1C9C2A80F9BD00F48928 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -264,6 +289,25 @@
 		9A6B1C8B2A76E17700F48928 /* MiniCost of ropes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "MiniCost of ropes.cpp"; sourceTree = "<group>"; };
 		9A6B1C912A79681500F48928 /* Tries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tries; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A6B1C932A79681500F48928 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A6B1C982A80178F00F48928 /* RatInMaze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RatInMaze.cpp; sourceTree = "<group>"; };
+		9A6B1C9E2A80F9BD00F48928 /* graphs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graphs; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6B1CA02A80F9BD00F48928 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A6B1CA52A80F9D700F48928 /* Implementation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Implementation.cpp; sourceTree = "<group>"; };
+		9A6B1CA72A810AAD00F48928 /* BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BFS.cpp; sourceTree = "<group>"; };
+		9A6B1CA92A81125300F48928 /* DFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFS.cpp; sourceTree = "<group>"; };
+		9A6B1CAB2A815BDA00F48928 /* cycleUndirectedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cycleUndirectedGraph.cpp; sourceTree = "<group>"; };
+		9A6B1CAD2A82B18B00F48928 /* cycleDirectedGraph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cycleDirectedGraph.cpp; sourceTree = "<group>"; };
+		9A6B1CAF2A82C08100F48928 /* TopologicalOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TopologicalOrder.cpp; sourceTree = "<group>"; };
+		9A6B1CB12A83524A00F48928 /* Kahn's Algo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kahn's Algo.cpp"; sourceTree = "<group>"; };
+		9A6B1CB32A83541600F48928 /* cycleDetectionKahns.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cycleDetectionKahns.cpp; sourceTree = "<group>"; };
+		9A6B1CB52A838ECB00F48928 /* ShortestPath.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestPath.cpp; sourceTree = "<group>"; };
+		9A6B1CB72A86207300F48928 /* ShortestDistanceInDAG.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShortestDistanceInDAG.cpp; sourceTree = "<group>"; };
+		9A6B1CB92A862E2B00F48928 /* Dijkstra's Algo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dijkstra's Algo.cpp"; sourceTree = "<group>"; };
+		9A6B1CBB2A866B4000F48928 /* Prim's Algo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Prim's Algo.cpp"; sourceTree = "<group>"; };
+		9A6B1CBD2A86AD3200F48928 /* Kruskal's.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kruskal's.cpp"; sourceTree = "<group>"; };
+		9A6B1CBF2A87506B00F48928 /* Kosaraju'sStronglyConnected.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Kosaraju'sStronglyConnected.cpp"; sourceTree = "<group>"; };
+		9A6B1CC12A87896000F48928 /* Bellman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bellman.cpp; sourceTree = "<group>"; };
+		9A6B1CC32A9099F800F48928 /* mincostrod.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mincostrod.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A6B1C9B2A80F9BD00F48928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -383,6 +434,7 @@
 				9A6B1C562A72C42600F48928 /* BinaryTrees */,
 				9A6B1C7F2A76C1D000F48928 /* Heap */,
 				9A6B1C922A79681500F48928 /* Tries */,
+				9A6B1C9F2A80F9BD00F48928 /* graphs */,
 				9A6B1B562A629C7700F48928 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -404,6 +456,7 @@
 				9A6B1C702A753CE500F48928 /* BinarySearchTree */,
 				9A6B1C7E2A76C1D000F48928 /* Heap */,
 				9A6B1C912A79681500F48928 /* Tries */,
+				9A6B1C9E2A80F9BD00F48928 /* graphs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -431,6 +484,7 @@
 			isa = PBXGroup;
 			children = (
 				9A6B1B792A62F52200F48928 /* main.cpp */,
+				9A6B1CC32A9099F800F48928 /* mincostrod.cpp */,
 				9A6B1BD42A6683E900F48928 /* Addarray.cpp */,
 				9A6B1BD72A67B30200F48928 /* MaximumCharacterString.cpp */,
 				9A6B1BD92A67BA1800F48928 /* RemoveSpaceinString.cpp */,
@@ -509,6 +563,7 @@
 				9A6B1C0A2A6B183100F48928 /* MergeSort.cpp */,
 				9A6B1C0C2A6BDA4900F48928 /* QuickSort.cpp */,
 				9A6B1C0E2A6D87DD00F48928 /* RatInTheMaze.cpp */,
+				9A6B1C982A80178F00F48928 /* RatInMaze.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -596,6 +651,29 @@
 				9A6B1C932A79681500F48928 /* main.cpp */,
 			);
 			path = Tries;
+			sourceTree = "<group>";
+		};
+		9A6B1C9F2A80F9BD00F48928 /* graphs */ = {
+			isa = PBXGroup;
+			children = (
+				9A6B1CA02A80F9BD00F48928 /* main.cpp */,
+				9A6B1CA52A80F9D700F48928 /* Implementation.cpp */,
+				9A6B1CA92A81125300F48928 /* DFS.cpp */,
+				9A6B1CA72A810AAD00F48928 /* BFS.cpp */,
+				9A6B1CAB2A815BDA00F48928 /* cycleUndirectedGraph.cpp */,
+				9A6B1CAD2A82B18B00F48928 /* cycleDirectedGraph.cpp */,
+				9A6B1CAF2A82C08100F48928 /* TopologicalOrder.cpp */,
+				9A6B1CB12A83524A00F48928 /* Kahn's Algo.cpp */,
+				9A6B1CB32A83541600F48928 /* cycleDetectionKahns.cpp */,
+				9A6B1CB52A838ECB00F48928 /* ShortestPath.cpp */,
+				9A6B1CB72A86207300F48928 /* ShortestDistanceInDAG.cpp */,
+				9A6B1CB92A862E2B00F48928 /* Dijkstra's Algo.cpp */,
+				9A6B1CBB2A866B4000F48928 /* Prim's Algo.cpp */,
+				9A6B1CBD2A86AD3200F48928 /* Kruskal's.cpp */,
+				9A6B1CBF2A87506B00F48928 /* Kosaraju'sStronglyConnected.cpp */,
+				9A6B1CC12A87896000F48928 /* Bellman.cpp */,
+			);
+			path = graphs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -839,6 +917,23 @@
 			productReference = 9A6B1C912A79681500F48928 /* Tries */;
 			productType = "com.apple.product-type.tool";
 		};
+		9A6B1C9D2A80F9BD00F48928 /* graphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6B1CA22A80F9BD00F48928 /* Build configuration list for PBXNativeTarget "graphs" */;
+			buildPhases = (
+				9A6B1C9A2A80F9BD00F48928 /* Sources */,
+				9A6B1C9B2A80F9BD00F48928 /* Frameworks */,
+				9A6B1C9C2A80F9BD00F48928 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graphs;
+			productName = graphs;
+			productReference = 9A6B1C9E2A80F9BD00F48928 /* graphs */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -890,6 +985,9 @@
 					9A6B1C902A79681500F48928 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
+					9A6B1C9D2A80F9BD00F48928 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 9A6B1B502A629C7700F48928 /* Build configuration list for PBXProject "LearnCpp" */;
@@ -919,6 +1017,7 @@
 				9A6B1C6F2A753CE500F48928 /* BinarySearchTree */,
 				9A6B1C7D2A76C1D000F48928 /* Heap */,
 				9A6B1C902A79681500F48928 /* Tries */,
+				9A6B1C9D2A80F9BD00F48928 /* graphs */,
 			);
 		};
 /* End PBXProject section */
@@ -945,6 +1044,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6B1BDE2A67E53C00F48928 /* Wave.cpp in Sources */,
+				9A6B1CC42A9099F900F48928 /* mincostrod.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,7 +1076,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A6B1C0F2A6D87DD00F48928 /* RatInTheMaze.cpp in Sources */,
+				9A6B1C992A80178F00F48928 /* RatInMaze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,6 +1140,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6B1C942A79681500F48928 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6B1C9A2A80F9BD00F48928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6B1CB62A838ECB00F48928 /* ShortestPath.cpp in Sources */,
+				9A6B1CC22A87896000F48928 /* Bellman.cpp in Sources */,
+				9A6B1CC02A87506B00F48928 /* Kosaraju'sStronglyConnected.cpp in Sources */,
+				9A6B1CBC2A866B4000F48928 /* Prim's Algo.cpp in Sources */,
+				9A6B1CBA2A862E2B00F48928 /* Dijkstra's Algo.cpp in Sources */,
+				9A6B1CAE2A82B18B00F48928 /* cycleDirectedGraph.cpp in Sources */,
+				9A6B1CAA2A81125300F48928 /* DFS.cpp in Sources */,
+				9A6B1CB02A82C08100F48928 /* TopologicalOrder.cpp in Sources */,
+				9A6B1CA62A80F9D700F48928 /* Implementation.cpp in Sources */,
+				9A6B1CB42A83541600F48928 /* cycleDetectionKahns.cpp in Sources */,
+				9A6B1CAC2A815BDA00F48928 /* cycleUndirectedGraph.cpp in Sources */,
+				9A6B1CB22A83524A00F48928 /* Kahn's Algo.cpp in Sources */,
+				9A6B1CB82A86207300F48928 /* ShortestDistanceInDAG.cpp in Sources */,
+				9A6B1CBE2A86AD3200F48928 /* Kruskal's.cpp in Sources */,
+				9A6B1CA82A810AAD00F48928 /* BFS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1379,6 +1501,22 @@
 			};
 			name = Release;
 		};
+		9A6B1CA32A80F9BD00F48928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6B1CA42A80F9BD00F48928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1513,6 +1651,15 @@
 			buildConfigurations = (
 				9A6B1C962A79681500F48928 /* Debug */,
 				9A6B1C972A79681500F48928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6B1CA22A80F9BD00F48928 /* Build configuration list for PBXNativeTarget "graphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6B1CA32A80F9BD00F48928 /* Debug */,
+				9A6B1CA42A80F9BD00F48928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

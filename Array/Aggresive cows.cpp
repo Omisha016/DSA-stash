@@ -10,7 +10,7 @@
 
 using namespace std;
 
-int poss(vector<int> arr, int n, int mid, int no)
+int isposs(vector<int> arr, int n, int mid, int no)
 {
     int count=1;
     int lastposition=arr[0];
@@ -36,13 +36,11 @@ int AggressiveCows(vector<int>arr, int n, int no)
     {
         maxi=arr[i]>=maxi?arr[i]:maxi;
     }
-    int e=maxi;
-    int s=0;
-    int ans=-1;
-    int mid=(s+e)/2;
+    int e=maxi,s=0,ans=-1;
+    int mid=s+(e-s)/2;
     while(s<=e)
     {
-        if(poss(arr,n, mid, no))
+        if(isposs(arr,n, mid, no))
         {
             ans=mid;
             s=mid+1;
@@ -50,7 +48,7 @@ int AggressiveCows(vector<int>arr, int n, int no)
         else{
             e=mid-1;
         }
-        mid= (s+e)/2;
+        mid=s+(e-s)/2;
     }
     return ans;
 }
